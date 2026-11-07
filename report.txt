@@ -1,0 +1,44 @@
+Security Log Analyzer Report
+============================
+Report generated: 2026-11-08 02:00:51.629721
+Successful logins: 4
+Failed logins: 9
+Success rate: 30.8%
+Failure rate: 69.2%
+
+Failed Login Attempts by Hour
+20:00: 7 failed attempts
+21:00: 2 failed attempts
+
+Failed Attempts by IP (Ranked)
+192.168.1.20: 3 failed attempts
+10.0.0.8: 3 failed attempts
+172.16.0.5: 2 failed attempts
+192.168.1.30: 1 failed attempts
+
+Longest Consecutive Failed Logins by IP
+192.168.1.20: 3 consecutive failed logins
+10.0.0.8: 3 consecutive failed logins
+172.16.0.5: 2 consecutive failed logins
+192.168.1.30: 1 consecutive failed logins
+
+Failed Attempts by Username
+admin: 3 failed attempts
+guest: 3 failed attempts
+testuser: 2 failed attempts
+ahmad: 1 failed attempts
+
+Security Findings Summary
+=========================
+IPs requiring review: 2
+Accounts requiring review: 2
+IPs: 192.168.1.20, 10.0.0.8
+Accounts: admin, guest
+Overall assessment: Suspicious login patterns require review.
+
+Security Warnings
+=================
+WARNING: IP 192.168.1.20 has 3 failed login attempts
+WARNING: IP 10.0.0.8 has 3 failed login attempts
+WARNING: Account 'admin' has 3 failed login attempts
+WARNING: Account 'guest' has 3 failed login attempts
